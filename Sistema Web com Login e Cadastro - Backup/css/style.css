@@ -16,7 +16,7 @@ body{
     text-align: center;
     align-items: center;
     padding: 20px;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 .input-group, .input-group mb-3{
     display: flex;
@@ -28,6 +28,8 @@ body{
 }
 input, select{
     border-radius: 25px 5px;
+    width: 200px;
+    height: 25px;
 }
 label{
     width: 200px;
