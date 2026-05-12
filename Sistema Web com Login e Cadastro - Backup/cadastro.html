@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="scripts/cadastroScripts.js"></script>
+    <script src="scripts/cadastroScriptsbyId.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styleCad.css">
     <title>Document</title>
@@ -19,23 +19,23 @@
                 <form action="">
                     <div class="input-group mb-3">
                         <label for="name">Nome:</label>
-                        <input type="text" name="name" placeholder="Digite seu nome">
+                        <input type="text" name="name" id="name" placeholder="Digite seu nome">
                     </div>
                     <div class="input-group mb-3">
                         <label for="age">Idade:</label>
-                        <input type="number" name="age" placeholder="Digite sua idade" pattern="[0,9]">
+                        <input type="number" name="age" id="age" placeholder="Digite sua idade" pattern="[0,9]">
                     </div>
                     <div class="input-group mb-3">
                         <label for="email">Email:</label>
-                        <input type="email" name="email" placeholder="example@mail.com">
+                        <input type="email" name="email" id="email" placeholder="example@mail.com">
                     </div> 
                     <div class="input-group mb-3">
                         <label for="profession">Profissão:</label>
-                        <input type="text" name="profession" placeholder="Sua profissão">
+                        <input type="text" name="profession" id="profession" placeholder="Sua profissão">
                     </div>
                     <div class="input-group mb-3">
                         <label for="team">Time:</label>
-                        <select name="team">
+                        <select name="team" id="team">
                             <option value="Não informado" selected>Não informado</option>
                             <option value="Flamengo">Flamengo</option>
                             <option value="Fluminense">Fluminense</option>
